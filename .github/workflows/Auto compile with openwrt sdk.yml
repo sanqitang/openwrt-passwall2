@@ -80,7 +80,8 @@ jobs:
         include:
           - sdk_ver: 23.05
             luci_ver: 23.05
-            sdk_url: https://downloads.openwrt.org/releases/23.05.0/targets/ramips/rt288x/openwrt-sdk-23.05.0-ramips-rt288x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+            sdk_url: https://downloads.openwrt.org/releases/23.05.0/targets/ath79/generic/openwrt-sdk-23.05.0-ath79-generic_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+
 
     steps:
       - name: Install packages
